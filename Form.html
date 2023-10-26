@@ -10,14 +10,14 @@
     <form>
        <div>
         <label for="User Name">email</label><br>
-        <input type="email" id="User Name" required placeholder="abc@example.com">
+        <input type="email" name="email" id="User Name" required placeholder="abc@example.com">
         <!--for showing example we can use placeholder attribute , (abc@Example.com)-->
     
     </div>
 
        <div> 
         <label for="Password">Password</label><br>
-        <input type="password" id="Password" required>
+        <input type="password"name ="pssword" id="Password" required>
     <!--for line no. 12 input type (URL) = it should be http!//www.something.com/    -->
     <!--for inputtype time , time will be there & for email it would be recuried in the foem (abc____@____gmail.com) -->
     </div>
@@ -29,9 +29,36 @@
 
         <input type="range" id="r" required min="10" max="18" step="2">
     </div>
-
-
-
     </form>
+
+    <form>
+        <p>Gender</p>
+       <div>
+        <input type ="radio" name ="Gender" value="Male" checked>Male
+       </div>
+       <div>
+        <input type ="radio" name="Gender" value="Female">Female
+       </div>
+       <div>
+        <input type ="radio" name="Gender" value="Other" >Other
+       </div>
+       <input type="submit">
+
+       <!-- cheakbox-->
+       <p>course done</p>
+       <div>
+        <input type ="checkbox" name="course" value ="python">python 
+       </div>
+       <div>
+        <input type ="checkbox" name="course" value ="java" checked>java 
+        </div>
+       <div>
+        <input type ="checkbox" name="course" value ="c++">c++ 
+       </div>
+       <input type="submit">
+    </form>
+
 </body>
 </html>
+
+      
