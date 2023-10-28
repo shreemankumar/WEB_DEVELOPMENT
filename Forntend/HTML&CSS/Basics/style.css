@@ -1,4 +1,26 @@
+/* type selector */
 p{
     color:blue ;
+    font-size: 30px;
+}
+/* h4{
+    text-transform:lowercase;
     
+} */
+/* class selector */
+
+.lowercase{
+    text-transform:lowercase;
+}
+.uppercase{
+    text-transform:uppercase;
+    
+}
+.cursive{
+    font-family: cursive;
+}
+/* id sector */
+
+#good-color{
+    color:firebrick;
 }
