@@ -1,0 +1,11 @@
+/* px stands foe pixl , the smallest basic unit for measurment for css  */
+/* hexadecimal number */
+/*gb or rgba value */
+/* SHL value (hue , saturation and lightness) H - means degree. so 0 is for red and 120 is for green and 240 is for blue */
+#dv{
+    height:200px;
+    width:200px;
+    background-color:rgb(247, 122, 122);
+    background-color: hsl(hue, saturation, lightness);
+   
+}
