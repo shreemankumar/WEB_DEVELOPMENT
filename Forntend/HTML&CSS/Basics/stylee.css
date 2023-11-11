@@ -3,19 +3,23 @@
 /*gb or rgba value */
 /* i px = 1/96 inch */
 /* SHL value (hue , saturation and lightness) H - means degree. so 0 is for red and 120 is for green and 240 is for blue */
-#dv{
-    height:90vh;
-    width:90vw;
-    background-color: rgb(203, 118, 203);
+#dv1{
+    /* height:30vh;
+    width:30vw; */
+    /* background-color: rgb(203, 118, 203); */
     /*background-color: hsl(hue, saturation, lightness);*/
-    border: 34px solid rosybrown;
+    /* border: 34px solid rosybrown; */
+    /* border-width:14px ;
+    border-style: solid;
+    border-color: red; */
+    /* border: 25px solid skyblue; */
 }
-#ddv{
+#dv2{
     /* height: 50%; */
-    height: 20vh;
-    width: 90vw;
-    background-color: purple;
-    font-size: 30px;
+    /* height: 30 vh;
+    width: 30vw; */
+    /* background-color: purple; */
+    font-size: 40px;
     
     
 }/*vh= viewport height
@@ -26,3 +30,10 @@ vw= viewport width
     
 }
 /* rim=fontsize of the root elemeent=html element */
+
+#sample-para{
+
+    border:20px solid red ;
+    border left=20px ;
+     plot
+}
