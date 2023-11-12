@@ -32,8 +32,9 @@ vw= viewport width
 /* rim=fontsize of the root elemeent=html element */
 
 #sample-para{
-
-    border:20px solid red ;
-    border left=20px ;
-     plot
+     border-style: double;
+     border-left:20px solid red ;
+     border-top-right-radius: 123px;
+     border-bottom-left-radius: 123px;
+    border-bottom-right-radius: 90px;
 }

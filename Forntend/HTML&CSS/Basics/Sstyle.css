@@ -1,0 +1,16 @@
+p{
+  font-size: 2.8rem;
+  color: brown; 
+  /* background-color: royalblue;  
+  border: 15px solid indianred;
+  border-top-right-radius: 55px; */
+  font-weight: 100;
+  /*font-weight means the size of the sentences means it can be bold , bolder , normal , or it also represents the number between the number 100 thu 900*/
+  text-align:justify;
+  /*text-allign means the sentences starts with right side or left or it is adjusted inverted  */
+  line-height: 50px;
+  /*line-height is the distance between two line */
+  text-transform: lowercase;
+  text-decoration:underline;
+  font-style: italic;
+}

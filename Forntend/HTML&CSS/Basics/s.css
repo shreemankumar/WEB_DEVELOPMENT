@@ -1,0 +1,14 @@
+#imagecontainer{
+   height: 100vh; 
+   width: 100vw;
+   background-image: url(https://c4.wallpaperflare.com/wallpaper/853/1023/682/apple-macbook-airbook-computer-mouse-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    /*background is repeate it self again and again*/
+    /*for position of the background : background position  if waana right then ..*/
+    /* background-position: left top; */
+    /* background-size: 200px 200px  ;the image will fit to the container , we can set dimension width and height */
+    background-size: 100% 60%;
+    background-attachment: fixed;
+    /*background-attachment: fixed and scrool means background is fixed while scrooling and background is scrooling while mouse is scrolling */
+/*margin is the space around to that element*/
+}
