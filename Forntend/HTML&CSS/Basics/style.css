@@ -18,6 +18,15 @@ li h4{
     text-transform:lowercase;
     
 } */
+Main{
+    width: 70%;
+}
+#asidee{
+    /* border-top:4px solid black; */
+        display: inline-block;
+        width: 20%;
+    
+}
 
 
 /* class selector */
@@ -44,3 +53,12 @@ li h4{
 #hovering:hover{
     color:rgb(54, 194, 54);
 }
+/*aside*/
+input{
+    background-color:#f7f7f7;
+    margin-bottom: 15px;
+   margin-top: 15px;
+    color: yellowgreen;
+    font-size: 2.4rem;
+    }
+

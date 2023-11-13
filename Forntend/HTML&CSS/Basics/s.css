@@ -8,7 +8,39 @@
     /* background-position: left top; */
     /* background-size: 200px 200px  ;the image will fit to the container , we can set dimension width and height */
     background-size: 100% 60%;
-    background-attachment: fixed;
+    background-attachment: scroll;
     /*background-attachment: fixed and scrool means background is fixed while scrooling and background is scrooling while mouse is scrolling */
 /*margin is the space around to that element*/
+    /* padding: 11px; */
+    margin: 10px 10px;
+}
+.para{
+    background-color: black;
+    height: 90%;
+    width: 90%;
+    
+    margin:13px 99px;
+    padding: 11px;
+}
+#div1{
+    background-color:rebeccapurple;
+    height: 200px;
+    width: 200px;
+    
+  
+}
+#div2{
+    background-color: rgb(233, 118, 17);
+    height: 200px;
+    width: 200px;
+  
+}
+div{
+    display: inline-block;
+    /* margin: -4px; */
+}
+span{
+    display: block;
+    visibility: hidden;/**/
+  
 }
