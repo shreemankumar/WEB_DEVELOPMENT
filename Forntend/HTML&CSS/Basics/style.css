@@ -19,16 +19,12 @@ li h4{
     
 } */
 Main{
-    width: 70%;
+    width: 30%;
 }
-#asidee{
-    /* border-top:4px solid black; */
-        display: inline-block;
-        width: 20%;
-    
+aside{
+    display: inline-block;
+    width: 10%;
 }
-
-
 /* class selector */
 
 .lowercase{
