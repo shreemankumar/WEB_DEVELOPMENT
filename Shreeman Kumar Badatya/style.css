@@ -33,13 +33,15 @@ body{
     color: white;
     /* font-size: 40px; */
     text-decoration: none;/* it means anchor tag has underline which is removed*/
-    transition: color 0.5s/* to add property transition and for which property u want totransation is :color.to be delayed/slow  0.5s  */
-    
+    transition: color 0.5s;  /* to add property transition and for which property u want totransation is :color.to be delayed/slow  0.5s  */
+   transition:border 
 }
 .horizontal-list li a:hover{
     color: lightgray;/* the color of the hover is lightgray*/
-    border-bottom: 1px solid white;/*sets the line style of an element's bottom border . hrer it is 1px of solid bar of white color when the mouse crosser is pointing ... it shows*/
+   border-bottom: 1px solid white;/*sets the line style of an element's bottom border . hrer it is 1px of solid bar of white color when the mouse crosser is pointing ... it shows*/
+    
 }
+    
 .text-center{
     text-align: center;
 }
@@ -61,5 +63,41 @@ body{
     border-radius: 50%;
 }
 .social-icon li a i:hover{
-   box-shadow:0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+   box-shadow:0px 0px 6px 4px rgba(230, 196, 196, 0.3);/* horizontal-offset(shadow towards right) ,vertical offside ,blur,  spread and color*/
+
+}
+
+/*about section*/
+
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+    
+    
+}
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+    
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius:50%;
+    box-shadow: 0px 0px 6px 4px lightgray;
+}
+#about p{
+    margin: 25px 200px 0px 200px;
+    
+    color: rgb(94, 91, 91);
+    text-align:justify;
+
+}
+#about p b{
+    text-decoration: none;
+    color: rgb(5, 5, 118);
+    
 }
